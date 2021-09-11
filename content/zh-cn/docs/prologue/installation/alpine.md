@@ -74,6 +74,12 @@ rc-service v2raya start
 rc-update add v2raya
 ```
 
+### AlpineLinux 同步时间（可选）
+
+```bash
+ntpd -d -q -n -p ntp3.aliyun.com
+```
+
 ### 其它操作
 
 #### 指定 WebDir
